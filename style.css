@@ -1,0 +1,85 @@
+body{
+    background-image: url(./Img/BG.jpg);
+    background-repeat: no-repeat;
+}
+#body{
+    font-family: "Bona Nova SC", serif;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 90%;
+    width: 100%;
+}
+.header > h1{margin: 0;}
+.header{
+
+    font-size: 25px;
+    font-family: "Bona Nova SC", serif;
+    margin: 0;
+    text-align: center;
+    display: block;
+    position: relative;
+    width: 100%;
+}
+.a{
+    font-size: 30px;
+}
+.footer{
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+    font-family: "Bona Nova SC", serif;
+    display: block;
+    height: 10%;
+    width: 100%;
+    text-align: center;
+}
+.grid{
+    font-size: small;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    row-gap: 10px;
+    column-gap: 10px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+}
+.abtme{
+    border-radius: 10px;
+    grid-column: span 3;
+}
+#x{
+    border-radius: 10px;
+}
+#y{
+    border-radius: 10px;
+}
+.project{
+    font-size: small;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    border-radius: 10px;
+}
+@media(max-width:500px){
+    .grid{
+    grid-template-rows: 1fr 1fr 1fr 2fr;
+    grid-template-columns: 1fr;
+    }
+    .abtme{
+        grid-column: unset;
+    }
+}
+  
+
+
+
+
+
+
